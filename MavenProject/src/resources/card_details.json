@@ -1,0 +1,16 @@
+[
+	{
+		"PaymentType": "Success Credit Card Payment",
+		"CardNumber": "4811111111111114",
+		"ExpiryDate": "02/20",
+		"CVVNumber": "123",
+		"BankOTP": "112233"
+	},
+{
+		"PaymentType": "Failed Credit Card Payment",
+		"CardNumber": "4811111111111113",
+		"ExpiryDate": "02/20",
+		"CVVNumber": "123",
+		"BankOTP": "112233"
+	}
+]

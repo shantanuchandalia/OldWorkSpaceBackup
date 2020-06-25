@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name ="TestListenerClass" />
+	</listeners>
+  <test thread-count="5" name="Test">
+  	<groups>
+  		<define name="all">
+  			<include name = "G1" />
+  			<include name = "G2" />
+  		</define>
+  		<run>
+  			<include name="all" />
+  		</run>
+  	</groups>
+  	<classes>
+  		<class name="basicTest" />
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
